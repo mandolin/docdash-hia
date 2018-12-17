@@ -1,6 +1,6 @@
 # docdash-hia
 
-Because of the need to cooperate with [jsdoc-plugin-hia] (https://github.com/mandolin/jsdoc-plugin-hia) code preview function that will be implemented later, some specific styles are needed, and there may be more customization requirements in the future, so I forked docdash.It is more convenient by this way.
+Because of the need to cooperate with [jsdoc-plugin-hia](https://github.com/mandolin/jsdoc-plugin-hia) code preview function that will be implemented later, some specific styles are needed, and there may be more customization requirements in the future, so I forked docdash.It is more convenient by this way.
 
 Because only a few style adjustments have been made for the time being, only the project itself is at present. If the expansion is more in the later stage, then I maybe consider whether to build the corresponding project official website.
 
