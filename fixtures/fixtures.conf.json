@@ -35,16 +35,16 @@
         "sort": true,
         "disqus": "",
 		"openGraph": {
-			"title": "Docdash",
+			"title": "docdash-hia",
 			"type": "website",
 			"image": "https://cloud.githubusercontent.com/assets/447956/13398144/4dde7f36-defd-11e5-8909-1a9013302cb9.png",
-			"site_name": "Docdash",
-			"url": "http://clenemt.github.io/docdash/"
+			"site_name": "docdash-hia",
+			"url": "https://github.com/mandolin/docdash-hia"
 		},
 		"meta": {
-			"title": "Docdash",
-			"description": "A clean, responsive documentation template theme for JSDoc 3.",
-			"keyword": "jsdoc, docdash"
+			"title": "docdash-hia",
+			"description": "docdash's derivative project is used to assist jsdoc-plugin-hia.(docdash的衍生项目，用来配合jsdoc-plugin-hia。)",
+			"keyword": "jsdoc, docdash-hia"
 		},
         "search": true,
         "collapse": true,
@@ -54,7 +54,7 @@
         "scripts": [],
         "menu":{
             "Github repo":{
-                "href":"https://github.com/clenemt/docdash",
+                "href":"https://github.com/mandolin/docdash-hia",
                 "target":"_blank",
                 "class":"menu-item",
                 "id":"repository"

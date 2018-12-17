@@ -661,3 +661,264 @@ html[data-search-mode] .level-hide {
 #disqus_thread{
     margin-left: 30px;
 }
+
+/**
+@note 以下是hia相关样式部分
+*/
+
+@font-face {
+    font-family: "icons";
+    src: url("data:application/font-woff;charset=utf-8;base64,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") format("woff");
+}
+
+body {
+    font-family: "Microsoft Yahei UI", "Microsoft Yahei", NSimSun, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 160%;
+}
+
+
+a[href^="http://"]::before,
+a[href^="https://"]::before,
+a[href^="//"]::before {
+	position1:absolute;
+	background1:#fff;
+	color1:#000;
+	content:"\F10A";
+	font-size1:14px;
+	font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+	display: inline-block;
+    font-size1: 0.7em;
+    margin-right: 0.5em;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #909090;
+	text-decoration: none;
+}
+a[href^="http://"]:hover::before,
+a[href^="https://"]:hover::before,
+a[href^="//"]:hover::before {
+	border-bottom :none;
+	color: #1a6bac;
+	text-decoration: none;
+    -webkit-transition: color 250ms;
+    transition: color 250ms;
+}
+a[href^="http://"]:hover,
+a[href^="https://"]:hover,
+a[href^="//"]:hover {
+	border-bottom :none;
+	color: #1a6bac;
+	text-decoration: underline;
+    -webkit-transition: color 250ms;
+    transition: color 250ms;
+}
+a[href^="http://"] ,
+a[href^="https://"] ,
+a[href^="//"]  {
+	border-bottom :none;
+    text-decoration: none;
+    -webkit-transition: color 250ms;
+    transition: color 250ms;
+}
+
+a,
+a:active {
+    color: #008080;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family : "Microsoft Yahei UI", "Microsoft Yahei", NSimSun, SimSun, 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4.name {
+    background: #4271ae;
+    padding: .45em 0 .45em 10px;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+
+}
+
+h4.name a {
+    color: #67f3c9;
+}
+
+h4.name a:hover {
+    border-bottom-color: #67f3c9;
+}
+
+tt, code, kbd, samp {
+    font-family: '等距更纱黑体 T SC', NSimSun, 'Source Code Pro', simsun,Consolas,Monaco, 'Andale Mono',  Menlo, Consolas, monospace;
+    background: #F3F5F6;
+}
+
+nav #nav-search{
+    font-size: 14px;
+}
+
+nav h3 {
+    font-size: 16px;
+}
+
+nav ul {
+    font-family:  "Microsoft Yahei UI", "Microsoft Yahei", NSimSun, SimSun, 'Lucida Grande', 'Lucida Sans Unicode', arial, sans-serif;
+}
+
+nav ul a,
+nav ul a:active {
+    font-family:  "Microsoft Yahei UI", "Microsoft Yahei", NSimSun, SimSun, 'Lucida Grande', 'Lucida Sans Unicode', arial, sans-serif;
+    font-size: 14px;
+}
+
+nav a:hover,
+nav a:active {
+  color: #2795EE;
+}
+
+nav > ul > li > a {
+    color: #4271ae;
+}
+
+nav h2 {
+    font-size: 14px;
+}
+
+nav > h2 > a {
+    color: #4271ae !important;
+}
+
+blockquote{
+    margin-left: 0;
+    border: 1px solid #8fdac9;
+    padding: 1em;
+    margin: 0;
+    background-color: #d8f2ec;
+}
+blockquote p{
+    margin: 0;
+}
+
+.important {
+    color: #4271ae;
+  }
+
+.type-signature {
+    color: #cff8bf
+}
+
+.name, .signature {
+    font-family: "等距更纱黑体 T SC", NSimSun, "Source Code Pro", simsun,Consolas,Monaco,'Andale Mono',  Menlo, Consolas, monospace;
+}
+
+.signature {
+    color: rgb(248, 253, 223);
+}
+
+.code-caption {
+    font-size: 1.25em;
+}
+
+.code-caption .codefilelink, .code-caption .codelinelink{
+    font-style: normal;
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.prettyprint {
+    border:1px solid #ddd;
+  }
+
+.prettyprint.source {
+    background-color: #F9F7F9;
+    color: #39464E;
+}
+
+.prettyprint code {
+    background-color: #F9F7F9;
+    color: #39464E;
+    font-size:16px;
+
+}
+
+.prettyprint.linenums li {
+    border-left: 3px #D7D4F030 solid;
+}
+
+.prettyprint.linenums li.selected, .prettyprint.linenums li.selected * {
+    background-color: #D7D4F030;
+}
+
+.codewithjsdoc{
+    border: 1px solid #8fdac9;
+    background-color: #ebfaf6;
+
+}
+.codewithjsdoc code{
+    border: none;
+    background-color: #ebfaf6;
+
+}
+.preview-pre{
+    border:1px solid #69b6f3;
+    background-color: #e9f4fe;
+}
+.preview-pre-hidden{
+    display: none;
+}
+.preview-pre code{
+    border: none;
+    background-color: #e9f4fe;
+
+}
+.toggle-preview{
+    border: 1px solid #4ea8f1;
+    cursor: pointer;
+    padding: 5px 7px;
+    line-height: 1em;
+    display: inline-block;
+    /* vertical-align: middle; */
+    border-radius: 5px;
+
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+
+    -khtml-user-select: none;
+    /* Konqueror */
+
+    -moz-user-select: none;
+    /* Firefox */
+
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+
+    user-select: none;
+}
+.toggle-preview:hover{
+    border:1px solid #4271ae;
+    background-color: #e9f4fe;
+}
+.toggle-preview::before {
+	content:"\F101";
+	font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+	display: inline-block;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+.toggle-preview-unfolding:before{
+	content:"\F104";
+
+}
+
+.params td, .params .name, .props .name, .name code {
+    font-family: "等距更纱黑体 T SC", NSimSun, "Source Code Pro", simsun,Consolas,Monaco,'Andale Mono',  Menlo, Consolas, monospace;
+ }
+
+ span.param-type, .params td .param-type, .param-type dd {
+    color: #249D7F;
+    font-family: "等距更纱黑体 T SC", NSimSun, "Source Code Pro", simsun,Consolas,Monaco,'Andale Mono',  Menlo, Consolas, monospace;
+ }

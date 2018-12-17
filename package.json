@@ -1,7 +1,7 @@
 {
-  "name": "docdash",
-  "version": "1.0.1",
-  "description": "A clean, responsive documentation template theme for JSDoc 3 inspired by lodash and minami",
+  "name": "docdash-hia",
+  "version": "1.0.0",
+  "description": "docdash's derivative project is used to assist jsdoc-plugin-hia.(docdash的衍生项目，用来配合jsdoc-plugin-hia。)",
   "main": "publish.js",
   "scripts": {
     "test": "jsdoc -c fixtures/fixtures.conf.json",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clenemt/docdash.git"
+    "url": "https://github.com/mandolin/docdash-hia"
   },
   "devDependencies": {
     "jsdoc": "latest",
     "browser-sync": "latest",
     "watch-run": "latest"
   },
-  "author": "Clement Moron <clement.moron@gmail.com>",
+  "author": "mandolin<mandolin.mdy@gmail.com>",
   "license": "Apache-2.0",
   "keywords": [
     "jsdoc",
