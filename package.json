@@ -1,6 +1,6 @@
 {
   "name": "docdash-hia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "docdash's derivative project is used to assist jsdoc-plugin-hia.(docdash的衍生项目，用来配合jsdoc-plugin-hia。)",
   "main": "publish.js",
   "scripts": {
