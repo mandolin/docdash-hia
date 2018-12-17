@@ -8,7 +8,13 @@ Because only a few style adjustments have been made for the time being, only the
 
 因为暂时只做了一些样式调整，因此目前只有项目本身，后期如果扩展的更多，则再考虑是否搭建相应的项目官网。
 
-The following is the original docdash content.以下为原docdash内容。
+### npm install:
+
+```bash
+	npm i docdash-hia -D
+````
+
+## The following is the original docdash content.以下为原docdash内容。
 
 ----
 
