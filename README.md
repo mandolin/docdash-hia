@@ -11,7 +11,7 @@ Because only a few style adjustments have been made for the time being, only the
 ### npm install:
 
 ```bash
-	npm i docdash-hia -D
+npm i docdash-hia -D
 ````
 
 ## The following is the original docdash content.以下为原docdash内容。
