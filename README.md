@@ -1,3 +1,17 @@
+# docdash-hia
+
+Because of the need to cooperate with [jsdoc-plugin-hia] (https://github.com/mandolin/jsdoc-plugin-hia) code preview function that will be implemented later, some specific styles are needed, and there may be more customization requirements in the future, so I forked docdash.It is more convenient by this way.
+
+Because only a few style adjustments have been made for the time being, only the project itself is at present. If the expansion is more in the later stage, then I maybe consider whether to build the corresponding project official website.
+
+因为需要配合 [jsdoc-plugin-hia](https://github.com/mandolin/jsdoc-plugin-hia) 后期将会实现的代码预览功能，因而需要一些针对性的样式，加上以后可能会有更多的自定义需求，因此fork出docdash的衍生项目，这样更方便些。
+
+因为暂时只做了一些样式调整，因此目前只有项目本身，后期如果扩展的更多，则再考虑是否搭建相应的项目官网。
+
+The following is the original docdash content.以下为原docdash内容。
+
+----
+
 # Docdash
 [![Build Status](https://api.travis-ci.org/clenemt/docdash.png?branch=master)](https://travis-ci.org/clenemt/docdash) [![npm version](https://badge.fury.io/js/docdash.svg)](https://badge.fury.io/js/docdash) [![license](https://img.shields.io/npm/l/docdash.svg)](LICENSE.md)
 
